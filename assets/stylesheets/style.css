@@ -1,0 +1,161 @@
+.useroptions div {
+  float: left;
+}
+
+.comprock {
+  display: none;
+}
+
+.comppaper {
+  display: none;
+}
+
+.compscissors {
+  display: none;
+}
+
+.compOptions {
+  position: relative;
+  left: 13px;
+  top: 14px;
+  filter: invert(100%);
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: "Lato", Helvetica, sans-serif;
+  color: #333333;
+  font-style: "Light";
+  font-size: 45px;
+}
+
+body {
+    background-color: #FEC79A
+}
+
+.useroptions  {
+  position: relative;
+  top: 20px;
+}
+
+.computer {
+  height: 130px;
+  width: 130px;
+  background: #620000;
+  border-radius: 40px;
+  position: relative;
+  left: 88px;
+  bottom: 20px;
+}
+
+
+.platform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  filter: blur(0px)
+}
+
+.playingfield {
+  background-color: tan;
+  opacity: 0.2;
+  border-radius: 100px;
+  height: 300px;
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.selector {
+  background: transparent;
+  border-radius: 130px;
+  position: relative;
+  top: 0px;
+}
+.divideline {
+  height: 1px;
+  width: 400px;
+  background: #333333;
+  border-radius: 1px;
+  position: absolute;
+  left: 88px;
+  bottom: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+  h2 {
+  font-family: "Lato", Helvetica, sans-serif;
+  color: #333333;
+  font-style: "Light";
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h3 {
+font-family: "Lato", Helvetica, sans-serif;
+color: #333333;
+font-style: "Light";
+}
+
+.scoreboard {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 22px;
+  color: #333333;
+  font-style: "Thin";
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: right;
+}
+
+.finalBG {
+  background-color: black;
+  opacity: 0.3;
+  height: 500px;
+  width: 1200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: #333333;
+  display: none;
+}
+h3 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  font-family: "Lato", Helvetica, sans-serif;
+}
+
+.winner {
+  display: none;
+}
+
+.loser {
+  display: none;
+}
