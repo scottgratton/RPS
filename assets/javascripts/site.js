@@ -3,7 +3,7 @@ var compScore = 0
 
 console.log("Javascript working");
 $(document).ready( function (){
-//------------------------------------
+//--------------------------------------
 
 $('.rock').click(function() {
   gameLogic("rock", compy());
